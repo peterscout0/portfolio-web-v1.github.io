@@ -375,6 +375,7 @@
 
     .projects {
         padding: 100px 0;
+        align-items: center;
     }
 
     .project__container-grid {
