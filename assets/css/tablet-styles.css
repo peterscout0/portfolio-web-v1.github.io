@@ -378,7 +378,7 @@
     }
 
     .project__container-grid {
-        justify-items: normal;
+        justify-items: center;
     }
 
     .project__container-grid--card {
