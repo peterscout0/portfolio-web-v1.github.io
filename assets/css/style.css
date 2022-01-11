@@ -1040,8 +1040,8 @@ body {
 }
 
 .modal-project__content--slider {
-    width: 300px;
-    height: 200px;
+    width: 340px;
+    height: 250px;
     transform-style: preserve-3d;
 }
 
@@ -1204,9 +1204,10 @@ input[type="radio"] {
     /* outline: none; */
 }
 
-/* .contact-me__input:focus {
+.contact-me__input:focus {
     outline-style: dotted;
-} */
+    outline-color: #85d0dc;
+}
 
 .contact-me__input--textarea {
     height: auto;

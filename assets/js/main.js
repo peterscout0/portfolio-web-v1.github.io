@@ -106,11 +106,59 @@ function reveal() {
 
 const MODAL = document.querySelector('.modal-project');
 const BUTTON1 = document.querySelector('#button1');
+const BUTTON2 = document.querySelector('#button2');
+const BUTTON3 = document.querySelector('#button3');
 const CLOSE = document.querySelector('.modal-project__content--close');
+const modalprojectContentCards = document.querySelector('.modal-project__content--cards');
 
 BUTTON1.addEventListener('click', () => {
     MODAL.classList.remove('hidden');
     MODAL.classList.add('visible');
+    modalprojectContentCards.innerHTML = `
+        <label for="radio-1" id="card-1" class="card">
+            <img src="./assets/img/home-portfolio-web-deskop-v1.png" alt="home portfolio web deskop v1">
+        </label>
+
+        <label for="radio-2" id="card-2" class="card">
+            <img src="./assets/img/home-portfolio-web-mobile-v1.png" alt="home portfolio web mobile v1">
+        </label>
+
+        <label for="radio-3" id="card-3" class="card">
+            <img src="./assets/img/template-made-on-web-slate.png" alt="template made on web slate">
+        </label>
+    `;
+});
+
+BUTTON2.addEventListener('click', () => {
+    MODAL.classList.remove('hidden');
+    MODAL.classList.add('visible');
+    modalprojectContentCards.innerHTML = `
+        <label for="radio-1" id="card-1" class="card">
+            <img src="./assets/img/home-Todo-app-react-deskop-v1.png" alt="home Todo app react deskop v1"/>
+        </label>
+        <label for="radio-2" id="card-2" class="card">
+            <img src="./assets/img/home-Todo-app-react-deskop-modal-v1.png" alt="home Todo app react deskop modal v1"/>
+        </label>
+        <label for="radio-3" id="card-3" class="card">
+            <img src="./assets/img/home-Todo-app-react-mobile-v1.png" alt="home Todo app react mobile v1"/>
+        </label>
+        `;
+});
+
+BUTTON3.addEventListener('click', () => {
+    MODAL.classList.remove('hidden');
+    MODAL.classList.add('visible');
+    modalprojectContentCards.innerHTML = `
+        <label for="radio-1" id="card-1" class="card">
+            <img src="./assets/img/home-we-school-surpplies-deskop.png" alt="home School surpplies"/>
+        </label>
+        <label for="radio-2" id="card-2" class="card">
+            <img src="./assets/img/home-we-school-surpplies-deskop.png" alt="home School surpplies"/>
+        </label>
+        <label for="radio-3" id="card-3" class="card">
+            <img src="./assets/img/home-we-school-surpplies-deskop.png" alt="home School surpplies"/>
+        </label>
+        `;
 });
 
 // BUTTON1.addEventListener('click', openModal);
@@ -124,6 +172,17 @@ BUTTON1.addEventListener('click', () => {
 CLOSE.addEventListener('click', () => {
     MODAL.classList.add('hidden');
     MODAL.classList.remove('visible');
+    // modalprojectContentCards.innerHTML = `
+    //     <label for="radio-1" id="card-1" class="card">
+    //         <img src="./assets/img/home-Todo-app-react-deskop-v1.png" alt="home Todo app react deskop v1"/>
+    //     </label>
+    //     <label for="radio-2" id="card-2" class="card">
+    //         <img src="./assets/img/home-Todo-app-react-deskop-modal-v1.png" alt="home Todo app react deskop modal v1"/>
+    //     </label>
+    //     <label for="radio-3" id="card-3" class="card">
+    //         <img src="./assets/img/home-Todo-app-react-mobile-v1.png" alt="home Todo app react mobile v1"/>
+    //     </label>
+    //     `;
 });
 
 

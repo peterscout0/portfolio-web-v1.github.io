@@ -140,8 +140,8 @@
     }
 
     .modal-project__content--slider {
-        width: 250px;
-        height: 175px;
+        width: 300px;
+        height: 200px;
     }
 
     .modal-project__content__button {
@@ -264,7 +264,7 @@
     .modal-project__content--slider {
         width: 250px;
         height: 180px;
-        margin: 60px 0 0 0;
+        /* margin: 60px 0 0 0; */
     }
 
     .modal-project__content__button {
