@@ -569,7 +569,7 @@ body {
 
 .hero-photo {
     width: 100%;
-    height: 50vh;
+    height: 65vh;
     object-fit: contain;
 }
 
@@ -594,7 +594,7 @@ body {
                         "content-about img";
     left: 5%;
     right: 5%;
-    bottom: 36%;
+    bottom: 20%;
     width: 90%;
     height: 100%;
     padding: 0px 50px;
